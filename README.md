@@ -20,4 +20,9 @@ $ npm run start:prod
 
 ## Docker
 
+```bash
+# run in Docker
+$ docker-compose up
+```
+
 
