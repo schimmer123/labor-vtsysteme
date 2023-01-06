@@ -1,10 +1,9 @@
 import {Body, Controller, Delete, Get, Param, Post, Put} from '@nestjs/common';
 import {Todo_I} from "./models/todo";
 import {TodoService} from "./todo.service";
-import {promises} from "dns";
 import {DeleteResult, UpdateResult} from "typeorm";
 
-@Controller('todo')
+@Controller('todos')
 export class TodoController {
 
     constructor(private itemService: TodoService) {
